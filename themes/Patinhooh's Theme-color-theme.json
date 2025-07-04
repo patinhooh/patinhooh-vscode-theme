@@ -1235,6 +1235,14 @@
       }
     },
     {
+      "name": "[Markdown] Blockquote Symbol",
+      "scope": "punctuation.definition.quote.begin.markdown",
+      "settings": {
+        "foreground": "#a6e22e"
+      }
+    },
+    
+    {
       "name": "[Markdown] Link Title/Description",
       "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
       "settings": {
