@@ -387,14 +387,14 @@
     /*
      * Diff
      */
-    "diffEditor.insertedTextBackground": "#00d90050",
+    "diffEditor.insertedTextBackground": "#00d90038",
     "diffEditor.insertedTextBorder": "default", // transparent
-    "diffEditor.removedTextBackground": "#de100050",
+    "diffEditor.removedTextBackground": "#de100038",
     "diffEditor.removedTextBorder": "default",
     "diffEditor.border": "#303030", // transparent
     "diffEditor.diagonalFill": "#50505033",
-    "diffEditor.insertedLineBackground": "#00d90050",
-    "diffEditor.removedLineBackground": "#de100050",
+    "diffEditor.insertedLineBackground": "#00d90018",
+    "diffEditor.removedLineBackground": "#de100018",
     "diffEditorGutter.insertedLineBackground": "default",
     "diffEditorGutter.removedLineBackground": "default",
     // TODO didn't find it
@@ -1141,7 +1141,7 @@
       }
     },
     {
-      "name": "[Python] Self",
+      "name": "[Python] Docstring",
       "scope": "string.quoted.docstring.multi.python",
       "settings": {
         "foreground": "#757575"
