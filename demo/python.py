@@ -23,10 +23,12 @@ def topo(G, ind=None, Q=[1]):
 
 
 class SomeClass:
-    def create_arr(self): # An instance method
+    def create_arr(self):
+        """ An instance method """
         self.arr = []
-    # asdf
-    def insert_to_arr(self, value):  #An instance method
+
+    def insert_to_arr(self, value):
+        """ An instance method """
         self.arr.append(value)
 
     @classmethod

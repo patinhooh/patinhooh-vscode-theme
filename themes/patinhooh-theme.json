@@ -972,6 +972,13 @@
       }
     },
     {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": {
@@ -986,17 +993,7 @@
       }
     },
     {
-      "name": "Template Definition",
-      "scope": [
-        "punctuation.definition.template-expression",
-        "punctuation.section.embedded"
-      ],
-      "settings": {
-        "foreground": "#f92672"
-      }
-    },
-    {
-      "name": "Number",
+      "name": "Numbers",
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#ae81ff"
@@ -1017,10 +1014,11 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": "keyword",
+      "name": "Library constant",
+      "scope": "support.constant",
       "settings": {
-        "foreground": "#f92672"
+        "fontStyle": "",
+        "foreground": "#ae81ff"
       }
     },
     {
@@ -1040,16 +1038,24 @@
       }
     },
     {
-      "name": "Class name",
-      "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+      "name": "Namespace name",
+      "scope": "entity.name.namespace, entity.name.scope-resolution",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#f8f8f0"
+      }
+    },
+    {
+      "name": "Type/Class name",
+      "scope": "entity.name.class, entity.name.type, entity.other.inherited-class",
       "settings": {
         "fontStyle": "",
         "foreground": "#a6e22e"
       }
     },
-    {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
+        {
+      "name": "Library class/type",
+      "scope": "support.type, support.class",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#a6e22e"
@@ -1064,11 +1070,28 @@
       }
     },
     {
+     "name": "Library function",
+     "scope": "support.function",
+     "settings": {
+       "fontStyle": "",
+       "foreground": "#1ccad8"
+     }
+    },
+        {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#f8f8f0"
+      }
+    },
+    {
+      "name": "Template Definition",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#f92672"
       }
     },
     {
@@ -1084,52 +1107,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#a6e22e"
-      }
-    },
-    {
-      "name": "Library function",
-      "scope": "support.function",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#1ccad8"
-      }
-    },
-    {
-      "name": "Library constant",
-      "scope": "support.constant",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#1ccad8"
-      }
-    },
-    {
-      "name": "Library class/type",
-      "scope": "support.type, support.class",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1ccad8"
-      }
-    },
-    {
-      "name": "Library variable",
-      "scope": "support.other.variable",
-      "settings": {
-        "fontStyle": ""
+        "foreground": "#f8f8f0"
       }
     },
     {
       "name": "Invalid",
-      "scope": "invalid",
+      "scope": "invalid, invalid.deprecated",
       "settings": {
         "fontStyle": "",
-        "foreground": "#b00b00"
-      }
-    },
-    {
-      "name": "Invalid deprecated",
-      "scope": "invalid.deprecated",
-      "settings": {
         "foreground": "#b00b00"
       }
     },
@@ -1147,6 +1132,14 @@
         "foreground": "#757575"
       }
     },
+    {
+      "name": "[Python] Decorator Symbol",
+      "scope": "punctuation.definition.decorator.python",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#a6e22e"
+      }
+    },    
     {
       "name": "[JavaScript] Reset js string interpolation expression",
       "scope": ["meta.template.expression"],
@@ -1176,28 +1169,7 @@
       }
     },
     {
-      "name": "[Markup] Quote",
-      "scope": "markup.quote",
-      "settings": {
-        "foreground": "#f92672"
-      }
-    },
-    {
-      "name": "[Markup] Lists",
-      "scope": "markup.list",
-      "settings": {
-        "foreground": "#e6db74"
-      }
-    },
-    {
-      "name": "[Markup] Styling",
-      "scope": "markup.bold, markup.italic",
-      "settings": {
-        "foreground": "#1ccad8"
-      }
-    },
-    {
-      "name": "[Markup] Inline",
+      "name": "[Markup Langs] Inline",
       "scope": "markup.inline.raw",
       "settings": {
         "fontStyle": "",
@@ -1205,55 +1177,111 @@
       }
     },
     {
-      "name": "[Markup] Headings",
-      "scope": "markup.heading",
+      "name": "[Markup Langs] Strike Through",
+      "scope": "markup.strikethrough",
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "[Markup Langs] Punctuation Definition Link",
+      "scope": "markup.list.unnumbered, markup.list.numbered",
+      "settings": {
+        "foreground": "#f8f8f0"
+      }
+    },
+    {
+      "name": "[Markup Langs] Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
+      "name": "[Markup Langs] Lists",
+      "scope": "markup.list",
+      "settings": {
+        "foreground": "#e6db74"
+      }
+    },
+    {
+      "name": "[Markup Langs] Diff header",
+      "scope": "meta.diff, meta.diff.header",
+      "settings": {
+        "foreground": "#757571"
+      }
+    },
+    {
+      "name": "[Markup Langs] Diff deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
+      "name": "[Markup Langs] Diff inserted",
+      "scope": "markup.inserted",
       "settings": {
         "foreground": "#a6e22e"
       }
     },
     {
-      "name": "[Markup] Setext Header",
-      "scope": "markup.heading.setext",
+      "name": "[Markup Langs] Diff Changed",
+      "scope": "markup.changed",
       "settings": {
-        "foreground": "#a6e22e",
-        "fontStyle": "bold"
+        "foreground": "#e6db74"
       }
     },
     {
-      "name": "[Markup] Headings",
-      "scope": "markup.heading.markdown",
+      "name": "[Markdown] Styling",
+      "scope": "punctuation.definition.bold.markdown, punctuation.definition.italic.markdown",
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#f92672"
       }
     },
     {
-      "name": "[Markdown] Quote",
-      "scope": "markup.quote.markdown",
+      "name": "[Markdown] Headings Symbol",
+      "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "fontStyle": "italic bold",
-        "foreground": "#f8f8f0"
+        "fontStyle": "bold",
+        "foreground": "#a6e22e"
+      }
+    },
+    {
+      "name": "[Markdown] Headings",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#a6e22e"
       }
     },
     {
       "name": "[Markdown] Blockquote Symbol",
       "scope": "punctuation.definition.quote.begin.markdown",
       "settings": {
-        "foreground": "#a6e22e"
+        "foreground": "#ae81ff"
       }
     },
-    
+    {
+      "name": "[Markdown] Paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#f8f8f0"
+      }
+    },
     {
       "name": "[Markdown] Link Title/Description",
-      "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+      "scope": "string.other.link.title.markdown,string.other.link.description.markdown, string.other.link.description.title.markdown",
       "settings": {
         "foreground": "#ae81ff"
       }
     },
     {
       "name": "[Markdown] Underline Link/Image",
-      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown, constant.other.reference.link.markdown",
       "settings": {
-        "foreground": "#e6db74"
+        "fontStyle": "italic",
+        "foreground": "#1ccad8"
       }
     },
     {
@@ -1264,31 +1292,10 @@
       }
     },
     {
-      "name": "[Markdown] Emphasis",
+      "name": "[Markdown] Italic",
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "[Markdown] Bold Emphasis",
-      "scope": ["markup.italic.markdown", "markup.bold.markdown"],
-      "settings": {
-        "fontStyle": "italic bold"
-      }
-    },
-    {
-      "name": "[Markdown] Strike Through",
-      "scope": "markup.strikethrough",
-      "settings": {
-        "fontStyle": "strikethrough"
-      }
-    },
-    {
-      "name": "[Markdown] Punctuation Definition Link",
-      "scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
-      "settings": {
-        "foreground": "#f8f8f0"
       }
     },
     {
@@ -1296,38 +1303,6 @@
       "scope": ["punctuation.definition.list.begin.markdown"],
       "settings": {
         "foreground": "#a6e22e"
-      }
-    },
-    {
-      // TODO isn't it the same off the line 396
-      "name": "diff.header",
-      "scope": "meta.diff, meta.diff.header",
-      "settings": {
-        "foreground": "#757571"
-      }
-    },
-    {
-      // TODO isn't it the same off the line 396
-      "name": "diff.deleted",
-      "scope": "markup.deleted",
-      "settings": {
-        "foreground": "#f92672"
-      }
-    },
-    {
-      // TODO isn't it the same off the line 396
-      "name": "diff.inserted",
-      "scope": "markup.inserted",
-      "settings": {
-        "foreground": "#a6e22e"
-      }
-    },
-    {
-      // TODO isn't it the same off the line 396
-      "name": "diff.changed",
-      "scope": "markup.changed",
-      "settings": {
-        "foreground": "#e6db74"
       }
     },
     {
