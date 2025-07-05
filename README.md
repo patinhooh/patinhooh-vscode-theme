@@ -2,7 +2,7 @@
 
 ## Overview
 
-Crafted because nothing out there matched my style. It's sharp, vibrant, and exactly what I needed. If you're looking for a theme that strikes a perfect balance between vibrancy and clarity, patinhooh-theme might be exactly what you've been searching for.
+Crafted because nothing out there matched my style. It's sharp, vibrant, and exactly what I needed. If you're looking for a theme that strikes a perfect balance between vibrancy and clarity, this theme might be exactly what you've been searching for.
 
 **Enjoy the Theme!**
 
