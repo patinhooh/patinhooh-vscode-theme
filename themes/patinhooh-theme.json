@@ -989,7 +989,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#e6db74"
+        "foreground": "#ffef62"
       }
     },
     {
@@ -1107,7 +1107,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#f8f8f0"
+        "foreground": "#a6e22e"
       }
     },
     {
@@ -1201,7 +1201,7 @@
       "name": "[Markup Langs] Lists",
       "scope": "markup.list",
       "settings": {
-        "foreground": "#e6db74"
+        "foreground": "#ffef62"
       }
     },
     {
@@ -1229,7 +1229,7 @@
       "name": "[Markup Langs] Diff Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#e6db74"
+        "foreground": "#ffef62"
       }
     },
     {
@@ -1314,7 +1314,7 @@
     {
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#e6db74"
+        "foreground": "#ffef62"
       }
     },
     {

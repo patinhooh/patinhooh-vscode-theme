@@ -12,17 +12,26 @@ Crafted because nothing out there matched my style. It's sharp, vibrant, and exa
 
 <br>
 
+## Languages Tailored So Far
+
+- Python
+- JSON
+- Markdown
+- HTML
+
+If you use a different language and something doesn’t look right, it’s probably because it hasn’t been customized yet. The theme is open source, so feel free to contribute improvements for your language!
+
+<br>
+
 ## Color Palette
 
-- **Color Palette:**
+- **Main Palette:**
 
-![Color Palette](img/color-palette.png)
+![Main Palette](img/main-palette.png)
 
 - **Monochromatic Palette:**
 
 ![Monochromatic Palette](img/mono-palette.png)
-
-- **Full Palette:** [View Palette](palette.json)
 
 <br>
 
