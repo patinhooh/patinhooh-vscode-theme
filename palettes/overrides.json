@@ -1,0 +1,11 @@
+{
+  "extensionBadge.remoteForeground": "#efefef",
+  "badge.foreground": "#efefef",
+  "activityBarBadge.foreground": "#efefef",
+  "terminal.background": "#eaeaea",
+  "terminal.border": "#cfcfcf",
+  "terminal.ansiWhite": "#bbbbb2",
+  "terminal.ansiBrightWhite": "#ffffff",
+  "terminal.ansiBlack": "#282828",
+  "terminal.ansiBrightBlack": "#757571"
+}

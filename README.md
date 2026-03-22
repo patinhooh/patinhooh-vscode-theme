@@ -6,16 +6,24 @@ Crafted because nothing out there matched my style. It's sharp, vibrant, and exa
 
 **Enjoy the Theme!**
 
-![Python Example](img/python-example.png)
-
-![CS Example](img/html-example.png)
+<div>
+  <img src="img/python-example-dark.png" alt="Python Example Dark">
+  <img src="img/html-example-dark.png" alt="HTML Example Dark">
+  <img src="img/python-example-light.png" alt="Python Example Light">
+  <img src="img/html-example-light.png" alt="HTML Example Light">
+</div>
 
 <br>
 
 ## Languages Tailored So Far
 
 - Python
+- C
+- C++
+- Golang
+- JavaScript
 - JSON
+- TOML
 - Markdown
 - HTML
 
@@ -33,6 +41,8 @@ If you use a different language and something doesn’t look right, it’s proba
 
 ![Monochromatic Palette](img/mono-palette.png)
 
+> check full palettes in the [palette-dark.txt](palettes/palette-dark.txt) and [palette-light.txt](palettes/palette-light.txt).
+
 <br>
 
 ## Inspirations
@@ -41,7 +51,7 @@ The creation of my theme drew significant inspiration from the following:
 
 - **[Monokai](https://github.com/microsoft/vscode/tree/main/extensions/theme-monokai)**: This theme served as the starting point for the palette. It was my go-to theme before I decided to craft my own.
 - **[Night Owl](https://github.com/sdras/night-owl-vscode-theme/)**: Provided valuable examples for syntax highlighting and offered insightful guidance during the early stages of development.
-- **[Gruber Darker](https://github.com/rexim/gruber-darker-theme)**: Helped dial down the chaos. It pushed me to strip things back and aim for clarity.
+- **[Gruber Darker](https://github.com/rexim/gruber-darker-theme)**: Helped dial down the chaos. It pushed me to remove colors and aim for clarity.
 
 <br>
 
